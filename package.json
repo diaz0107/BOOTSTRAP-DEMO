@@ -1,13 +1,13 @@
 {
-  "name": "w12",
+  "name": "newbootstrap",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html  --out-dir build"
-},
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "build": "parcel build src/index.html --public-url ./ --dist-dir build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
