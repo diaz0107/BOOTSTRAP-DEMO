@@ -557,7 +557,6 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"1SICI":[function(require,module,exports) {
-// Import all of Bootstrap's JS
 var _bootstrap = require("bootstrap");
 
 },{"bootstrap":"h36JB"}],"h36JB":[function(require,module,exports) {
@@ -6288,6 +6287,6 @@ var createPopper = /*#__PURE__*/ (0, _createPopperJs.popperGenerator)({
     defaultModifiers: defaultModifiers
 }); // eslint-disable-next-line import/no-unused-modules
 
-},{"./createPopper.js":"cHuNp","./modifiers/eventListeners.js":"hBKsL","./modifiers/popperOffsets.js":"6I679","./modifiers/computeStyles.js":"gDlm2","./modifiers/applyStyles.js":"4iMn4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9tRox","1SICI"], "1SICI", "parcelRequire447d")
+},{"./createPopper.js":"cHuNp","./modifiers/eventListeners.js":"hBKsL","./modifiers/popperOffsets.js":"6I679","./modifiers/computeStyles.js":"gDlm2","./modifiers/applyStyles.js":"4iMn4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9tRox","1SICI"], "1SICI", "parcelRequiree35b")
 
 //# sourceMappingURL=index.18dbc454.js.map
